@@ -1,9 +1,6 @@
-
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pandas as pd
-import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder,PolynomialFeatures
 from sklearn.model_selection import train_test_split
