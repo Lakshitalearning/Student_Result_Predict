@@ -64,5 +64,5 @@ for column in X_df.columns:
 # prediction=regressor.predict(pd.DataFrame([user_inputs]))
 # prediction_unscaled=sc_y.inverse_transform(prediction.reshape(-1,1))
 # st.write(f'Predicted Student Performance : {prediction[0]}')
-prediction = selected_model.predict(pd.DataFrame([user_inputs]))
+prediction = regressor.predict(pd.DataFrame([user_inputs]))
 st.write(f'Predicted Student  Performance: {prediction[0]}')
